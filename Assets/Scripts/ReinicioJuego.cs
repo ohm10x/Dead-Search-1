@@ -15,7 +15,7 @@ public class ReinicioJuego : MonoBehaviour
 
 void ChangeScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-10);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-7);
     }
 
 

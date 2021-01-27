@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMoveJoystick : MonoBehaviour
 {
 
-
+    public GameObject audioSalto;
     private float horizontalMove = 0f;
     private float verticalMove = 0f;
 
@@ -106,7 +106,7 @@ public class PlayerMoveJoystick : MonoBehaviour
 
             canDoubleJump = true;
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
-
+            Instantiate(audioSalto);
 
         }
         else
@@ -116,7 +116,7 @@ public class PlayerMoveJoystick : MonoBehaviour
                 {
                     rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
                     canDoubleJump = false;
-
+                    Instantiate(audioSalto);
                 }
 
             

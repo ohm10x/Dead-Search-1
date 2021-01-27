@@ -149,10 +149,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 428224912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48ccd4826fa61dd4d9a9ef1b21b63349, type: 3}
+  m_Script: {fileID: 11500000, guid: f145cae0ee2363b4098a70490cbd6eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempo: 30
+  tiempo: 10
 --- !u!81 &428224914
 AudioListener:
   m_ObjectHideFlags: 0
